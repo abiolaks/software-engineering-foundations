@@ -26,6 +26,8 @@ Editing then can be tedious particularly when editing large files and document a
 
 Then in 1983, Richard Stallman release a bundle of his macro under the name editing macros, or "EMACS" for short- This is the birth of world most powerful editor. An emacs became one of the most successful applications of GNU project by Dr. Stallman.
 
+Macros are series of commands and instruction that you group together as a single command to accomplish a task automatically.Macros are used to make a sequence of computing instruction available to programmer as a single program statement, making the programming task less tedious and less error-prone- they are called macro because a big block of code can be expanded from small sequence of characters.
+
 Emacs is highly customizable as everything inside of it can be changed and molded into a form suitable to the programmer desire.
 
 Emacs is so self containing - I will say "it is one ring to rule them all". you can use shell inside emacs, you can edit document, it also come with a file manager, you can acess email and web ...just name it. I love emacs.
