@@ -1,0 +1,43 @@
+# Understanding Shell Input and Ouput Redirection
+
+__I/O redirection is a command line feature that enables the us to redirect the input and or the ouput of command from and/or to files or chain multiples commands together.
+
+In linux there are 3 default files for input and ouput;
+
+* stdin or 0 - it is connected to the keyboard, most program read input from this file
+
+* stdout or 1 - it's ouput to the screen
+
+* stderr or 2 - this send status and error messages are sent to this file and it is outputed to the screen.
+
+I/O redirections allows you to alter the input source of a command as well as where it's output and error messages are sent to. This is make possible by the "<" and ">".
+
+## Standard Output
+Most command line program send their results in a facility called the stdout. i.e on the screen. standard output directs its content to the display(screen). 
+
+However the stdout results can be redirect to files, program and devices.
+
+The ">" symbol redirect the results of stdout to a what is specify after the symbol
+
+    ls > file_name
+The result of the ls is now send to the specify file name.
+
+## Standard Input
+The standard input get its content from the keyboard. we can as well get input from sources beside the keyboard input like files, the output of a command etc.
+
+    sort < file_name
+sort command got it input from the file name.
+
+Using the "<" symbol allow  this to be possible.
+
+
+## Pipelines
+
+Pipelines enables the chaining on two or more commands. it allows us to combine multiple commands together. 
+
+The "|" makes this possible.
+
+    ls -l | less
+This use two command line program, ls and the less command
+
+
